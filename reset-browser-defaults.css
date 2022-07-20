@@ -1,6 +1,8 @@
 
 /* This is taken from Andy Bell css reset
 https://gist.github.com/Asjas/4b0736108d56197fce0ec9068145b421
+The video I got this reset info
+https://youtu.be/h3bTwCqX4ns?t=821
 */
 
 /* Box sizing rules */
@@ -9,6 +11,8 @@ https://gist.github.com/Asjas/4b0736108d56197fce0ec9068145b421
 *::after {
   box-sizing: border-box;
 }
+/* A video explaining why box-sizing should be set to border-box */
+/* https://www.youtube.com/watch?v=WlGQdgy-M6w */
 
 /* Remove default margin */
 *{
