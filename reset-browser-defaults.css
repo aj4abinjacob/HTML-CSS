@@ -40,3 +40,8 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
+
+img {
+  max-width: 100%;
+}
+/*  This will help with avoiding horizontal bars in some circumstances*/
