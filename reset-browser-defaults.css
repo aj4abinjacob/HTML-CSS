@@ -43,5 +43,10 @@ body {
 
 img {
   max-width: 100%;
+  display: block;
 }
-/*  This will help with avoiding horizontal bars in some circumstances*/
+/*  The max-width will help with avoiding horizontal bars in some circumstances
+The display block helps in avoiding space down below the images because images by
+default is an inline element that has the space down below so think of it like adding
+the img in a paragraph the image aligns with the "o" letter but there will be space down
+below for letters like "p" and that space is added to images by default*/
